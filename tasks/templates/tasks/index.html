@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block tittle %}TCC Bioinformatica{% endblock %}
+
+
+{% block content %}
+    <div class="action">
+        <button class="btn-action" onclick="window.location.href = 'listtask';"> <span>(Imagem DNA) - Lista</span></button>
+        <button class="btn-action" onclick="window.location.href = 'teste';alert('Em Desenvolvimento!');"> <span>(Imagem Comparar Sequências) - Comparar</span></button>
+        <button class="btn-action" onclick="window.location.href = 'testeCMD';"> <span>(Imagem Tela de Controle) - Dados</span></button>
+    </div>
+{%endblock%}

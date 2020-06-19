@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <h1>Teste dados Lista de Dicionarios (melhorar)</h1>
+
+    <!-- <ul class="task-list">  
+        {% for dados in meusDados %}
+            <li class="task-item">
+                <span>{{dados}}</span>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <ul class="task-list">  
+
+        {% for resultado in meusResultados %}
+            <li class="task-item">
+                <span>{{resultado}}</span>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <ul class="task-list">  
+
+        {% for objTarefa in objTarefas %}
+            <li class="task-item">
+                <span>{{objTarefa.title}}</span>
+            </li>
+        {% endfor %}
+    </ul> -->
+
+    
+    <ul class="task-list">  
+
+        {% for sequencias in sequencias %}
+            <li class="task-item">
+                <span>Dados Da minha Sequência Teste DNA/RNAm: <b style="color: red;">{{sequencias}}</b></span>
+            </li>
+        {% endfor %}
+    </ul>
+
+
+{% endblock %}

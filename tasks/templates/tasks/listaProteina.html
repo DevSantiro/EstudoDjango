@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <h1>Lista de Sequencias</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Titulo</th>
+                <th>Descrição</th>
+                <th>Informações</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for prot in proteina %}
+             <tr>
+                <th>{{prot.titulo}}</th>
+                <th>{{prot.descricao}}</th>
+                <th><a href="" class="btn btn-primary btn-sm">Download Sequência</a></th>
+             </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+{% endblock %}
