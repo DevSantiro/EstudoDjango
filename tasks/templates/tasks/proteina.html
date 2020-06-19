@@ -4,10 +4,11 @@
 
 {% block content %}
     <div class="offset-1 col-10 list-div"> 
-        <h1>Proteina: <b style="color: blue;">{{proteinas.titulo}}</b></h1>
+        <span class="info-title">Proteina: <b>{{proteinas.titulo}}</b> <button onclick="window.location.href = '/testeCMD'" class="back-btn">Voltar</button></span>
         <div>
             <p>{{proteinas.sequencia}}</p>
         </div>
         <a href="/geraModelo/{{proteinas.id}}"><button>Modelagem</button></a>
     </div>
 {% endblock %}
+<a href=""></a>

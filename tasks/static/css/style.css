@@ -131,3 +131,26 @@ ul.messages li{
     width: 33%;
     height: 100%;
 }
+
+
+
+
+/* Página de Proteinas */
+
+/* Atributos "Globais" */
+
+.info-title{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.info-title b{
+    color: blue;
+}
+
+.back-btn{
+    width: 80px;
+    height: 30px;
+    font-size: 18px;
+    float: right;
+}

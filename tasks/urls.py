@@ -16,4 +16,5 @@ urlpatterns = [
     path('testeCMD/', views.testeCMD, name='teste-cmd'),
     path('proteina/<int:id>', views.infoProteina, name='lista-proteina'),
     path('geraModelo/<int:id>', views.getModelo, name='getModelo')
+    # A Partir dessa Linha eu irei tentar fazer o caso de modelagem de uma proteina do ZERO.
 ]

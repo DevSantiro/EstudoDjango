@@ -154,9 +154,9 @@ def getModelo(request, id):
     qntmodelo = 2
     proteinas = get_object_or_404(Proteina, pk=id)
     #Dados da Sequência estão armazenados na proteinas.sequencia
-
-    
-
     os.system('pyMOL sequencias/fasta/bgl.B99990001.pdb')
     return render(request, 'tasks/proteina.html', {'proteinas': proteinas})
     
+
+# A Partir daqui serão criados os testes para a modelagem da Proteina
+# Ao todo são x Fases identificadas:
